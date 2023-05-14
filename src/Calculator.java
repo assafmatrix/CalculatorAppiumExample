@@ -34,7 +34,6 @@ public class Calculator {
 		@SuppressWarnings("rawtypes")
 		WebDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), dc);
 		System.out.println("Driver details while initalising are : " + driver);
-
 		
 		Thread.sleep(10000);
 
